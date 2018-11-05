@@ -1,0 +1,1922 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,cyrillic-ext,greek-ext,greek,latin-ext,cyrillic);
+@font-face {
+    font-family: 'Myriadpro';
+    src: url('fonts/myriadproregular.eot');
+    src: local('myriadproregular'),
+    url('fonts/myriadproregular.woff') format('woff'),
+    url('fonts/myriadproregular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Myriadprolight';
+    src: url('fonts/myriadprolight.eot');
+    src: local('myriadprolight'),
+    url('fonts/myriadprolight.woff') format('woff'),
+    url('fonts/myriadprolight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Robotolight';
+    src: url('fonts/robotolight.eot');
+    src: local('robotolight'),
+    url('fonts/robotolight.woff') format('woff'),
+    url('fonts/robotolight.ttf') format('truetype');
+}
+
+html #overview #special-sectionOverview,
+html #overview #sectionOverview {
+    width: 100% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    float: none !important
+}
+#overview-aside-nav ul li b{
+    color: #000 !important
+}
+#overview-aside-nav ul li:hover div,
+#overview-aside-nav ul li.on div{
+    background: #000 !important
+}
+
+#VivoStick-warp html,
+#VivoStick-warp body,
+#VivoStick-warp div,
+#VivoStick-warp span,
+#VivoStick-warp applet,
+#VivoStick-warp object,
+#VivoStick-warp iframe,
+#VivoStick-warp h1,
+#VivoStick-warp h2,
+#VivoStick-warp h3,
+#VivoStick-warp h4,
+#VivoStick-warp h5,
+#VivoStick-warp h6,
+#VivoStick-warp p,
+#VivoStick-warp blockquote,
+#VivoStick-warp pre,
+#VivoStick-warp a,
+#VivoStick-warp abbr,
+#VivoStick-warp acronym,
+#VivoStick-warp address,
+#VivoStick-warp big,
+#VivoStick-warp cite,
+#VivoStick-warp code,
+#VivoStick-warp del,
+#VivoStick-warp dfn,
+#VivoStick-warp em,
+#VivoStick-warp img,
+#VivoStick-warp ins,
+#VivoStick-warp kbd,
+#VivoStick-warp q,
+#VivoStick-warp s,
+#VivoStick-warp samp,
+#VivoStick-warp small,
+#VivoStick-warp strike,
+#VivoStick-warp strong,
+#VivoStick-warp sub,
+#VivoStick-warp sup,
+#VivoStick-warp tt,
+#VivoStick-warp var,
+#VivoStick-warp b,
+#VivoStick-warp u,
+#VivoStick-warp i,
+#VivoStick-warp center,
+#VivoStick-warp dl,
+#VivoStick-warp dt,
+#VivoStick-warp dd,
+#VivoStick-warp ol,
+#VivoStick-warp ul,
+#VivoStick-warp li,
+#VivoStick-warp fieldset,
+#VivoStick-warp form,
+#VivoStick-warp label,
+#VivoStick-warp legend,
+#VivoStick-warp table,
+#VivoStick-warp caption,
+#VivoStick-warp tbody,
+#VivoStick-warp tfoot,
+#VivoStick-warp thead,
+#VivoStick-warp tr,
+#VivoStick-warp th,
+#VivoStick-warp td,
+#VivoStick-warp article,
+#VivoStick-warp aside,
+#VivoStick-warp canvas,
+#VivoStick-warp details,
+#VivoStick-warp embed,
+#VivoStick-warp figure,
+#VivoStick-warp figcaption,
+#VivoStick-warp footer,
+#VivoStick-warp header,
+#VivoStick-warp hgroup,
+#VivoStick-warp menu,
+#VivoStick-warp nav,
+#VivoStick-warp output,
+#VivoStick-warp ruby,
+#VivoStick-warp section,
+#VivoStick-warp summary,
+#VivoStick-warp time,
+#VivoStick-warp mark,
+#VivoStick-warp audio,
+#VivoStick-warp video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+#VivoStick-warp ol,
+#VivoStick-warp ul {
+    list-style: none
+}
+
+#VivoStick-warp article,
+#VivoStick-warp aside,
+#VivoStick-warp details,
+#VivoStick-warp figcaption,
+#VivoStick-warp figure,
+#VivoStick-warp footer,
+#VivoStick-warp header,
+#VivoStick-warp hgroup,
+#VivoStick-warp main,
+#VivoStick-warp nav,
+#VivoStick-warp section,
+#VivoStick-warp summary {
+    display: block
+}
+
+#VivoStick-warp audio,
+#VivoStick-warp canvas,
+#VivoStick-warp video {
+    display: inline-block
+}
+
+#VivoStick-warp audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+#VivoStick-warp [hidden] {
+    display: none
+}
+
+#VivoStick-warp a:focus {
+    outline: thin dotted
+}
+
+#VivoStick-warp a:active,
+#VivoStick-warp a:hover {
+    outline: 0
+}
+
+#VivoStick-warp abbr[title] {
+    border-bottom: 1px dotted
+}
+
+#VivoStick-warp b,
+#VivoStick-warp strong {
+    font-weight: 600
+}
+
+#VivoStick-warp dfn {
+    font-style: italic
+}
+
+#VivoStick-warp hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+#VivoStick-warp mark {
+    background: #ff0;
+    color: #000
+}
+
+#VivoStick-warp code,
+#VivoStick-warp kbd,
+#VivoStick-warp pre,
+#VivoStick-warp samp {
+    font-family: "Myriadprolight";
+    font-size: 1em
+}
+
+#VivoStick-warp pre {
+    white-space: pre-wrap
+}
+
+#VivoStick-warp q {
+    quotes: "вЂњ" "вЂќ" "вЂ" "вЂ™"
+}
+
+#VivoStick-warp small {
+    font-size: 80%
+}
+
+#VivoStick-warp sub {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+#VivoStick-warp sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    top: -0.5em
+}
+
+#VivoStick-warp sub {
+    bottom: -0.25em
+}
+
+#VivoStick-warp img {
+    max-width: 100%;
+    height: auto;
+}
+
+#VivoStick-warp svg:not(:root) {
+    overflow: hidden
+}
+
+#VivoStick-warp figure {
+    margin: 0
+}
+
+#VivoStick-warp fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+
+#VivoStick-warp legend {
+    border: 0;
+    padding: 0
+}
+
+#VivoStick-warp button,
+#VivoStick-warp input,
+#VivoStick-warp select,
+#VivoStick-warp textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+#VivoStick-warp button,
+#VivoStick-warp input {
+    line-height: normal
+}
+
+#VivoStick-warp button,
+#VivoStick-warp select {
+    text-transform: none
+}
+
+#VivoStick-warp button,
+#VivoStick-warp html input[type="button"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+#VivoStick-warp input[type="reset"],
+#VivoStick-warp input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+#VivoStick-warp button[disabled],
+#VivoStick-warp html input[disabled] {
+    cursor: default
+}
+
+#VivoStick-warp input[type="checkbox"],
+#VivoStick-warp input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+#VivoStick-warp input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+#VivoStick-warp input[type="search"]::-webkit-search-cancel-button,
+#VivoStick-warp input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+#VivoStick-warp button::-moz-focus-inner,
+#VivoStick-warp input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+#VivoStick-warp textarea {
+    overflow: auto;
+    vertical-align: top
+}
+
+#VivoStick-warp table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+#VivoStick-warp .clearfix {
+    zoom: 1
+}
+
+#VivoStick-warp .clearfix:before {
+    content: "";
+    display: table
+}
+
+#VivoStick-warp .clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+#VivoStick-warp html {
+    font-family: sans-serif;
+    line-height: 1;
+    font-size: 16px
+}
+
+#VivoStick-warp a {
+    text-decoration: none;
+    color: black
+}
+/*й–‹е§‹*/
+#VivoStick-warp #VivoStick-kv .mainsize,
+#VivoStick-warp #VivoStick-screen .mainsize,
+#VivoStick-warp #VivoStick-style .mainsize,
+#VivoStick-warp #VivoStick-slider .mainsize,
+#VivoStick-warp #VivoStick-honor .mainsize,
+#VivoStick-warp #VivoStick-design .mainsize,
+#VivoStick-warp #VivoStick-details .mainsize,
+#VivoStick-warp #VivoStick-portable .mainsize,
+#VivoStick-warp #VivoStick-capabilities .mainsize,
+#VivoStick-warp #VivoStick-miracast .mainsize,
+#VivoStick-warp #VivoStick-staycool .mainsize,
+#VivoStick-warp #VivoStick-anytime .mainsize{
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+#VivoStick-warp .bg_white .maintitle .mtitle,
+#VivoStick-warp .bg_white .maintitle .info{
+    color: #222
+}
+/*е·¦ж–‡еЏіењ–*/
+#VivoStick-warp .maintitle.lefttxt{
+    display: inline-block;
+}
+#VivoStick-warp .maintitle.lefttxt .info_left .mtitle,
+#VivoStick-warp .maintitle.lefttxt .info_left .info,
+#VivoStick-warp .maintitle.lefttxt .info_right .mtitle,
+#VivoStick-warp .maintitle.lefttxt .info_right .mtitle{
+    text-align: left;
+}
+#VivoStick-warp .maintitle.lefttxt .info_left{
+    float: left;
+    margin: 0px -100% 0px 0px;
+    position: relative;
+    width: 50%;
+}
+#VivoStick-warp .maintitle.lefttxt .info_right{
+    margin: 0px 0px 0px 50%;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+/*е·¦ењ–еЏіж–‡*/
+#VivoStick-warp .maintitle.righttxt{
+    display: inline-block;
+    width: 100%;
+}
+#VivoStick-warp .maintitle.righttxt .info_right .mtitle,
+#VivoStick-warp .maintitle.righttxt .info_right .info,
+#VivoStick-warp .maintitle.righttxt .info_left .mtitle,
+#VivoStick-warp .maintitle.righttxt .info_left .mtitle{
+    text-align: left;
+}
+#VivoStick-warp .maintitle.righttxt .info_left{
+    float: left;
+    margin: 0px -100% 0px 0px;
+    position: relative;
+    width: 50%;
+}
+#VivoStick-warp .maintitle.righttxt .info_right{
+    margin: 0px 0px 0px 50%;
+    position: relative;
+    width: 50%;
+    text-align: left;
+}
+
+/*е…§ж–‡*/
+#VivoStick-warp #VivoStick-screen .main .info,
+#VivoStick-warp .maintitle .info {
+    font-family: "Robotolight";
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+/*kv*/
+#VivoStick-warp #VivoStick-kv{
+    background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/kv_01.jpg) center top/1920px no-repeat, #fff;
+        background-size: 100%;
+    padding-top: 30%;
+    padding-bottom: 120px;
+}
+#VivoStick-warp #VivoStick-kv .maintitle{
+    text-align: center;
+}
+#VivoStick-warp #VivoStick-kv .maintitle .mtitle{
+    border:none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+#VivoStick-warp #VivoStick-kv .maintitle .icon_video_play{
+    background-image: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/icon_video_play.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    font-size: 19px;
+    width: 138px;
+    padding-right: 29px;
+    margin: 25px auto;
+        display: inline-block;
+        line-height: 27px !important;
+        color: #9fa0a0;
+}
+#VivoStick-warp #VivoStick-kv .maintitle .mtitle p {
+    color: #222;
+    text-align: left;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 8px
+}
+#VivoStick-warp #VivoStick-kv .maintitle .info{
+    color: #222;
+    text-align: left;
+    margin-bottom: 0
+}
+#VivoStick-warp #VivoStick-kv .maintitle .pics{
+    width: 100%;
+    max-width: 477px !important;
+}
+#VivoStick-kv .maintitle .infobox{
+    padding-left: 95px;
+    position: relative;
+    margin: 30px auto 0;
+    width: 62%;
+        padding-top: 2px;
+}
+#VivoStick-kv .maintitle .infobox .info p{
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    font-size: 13px;
+    padding-top: 5px;
+    line-height: 1.2;
+}
+#VivoStick-kv .maintitle .infobox .info b{
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.1;
+}
+#VivoStick-kv .maintitle .infobox .intel__logo{
+        background-repeat: no-repeat;
+    z-index: 2;
+    background-size: contain;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 80px;
+    background-image: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/intel_logo_large.png);
+    margin-top: 4px;
+    position: absolute;
+}
+/*360*/
+#VivoStick-warp #VivoStick-screen {
+    background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/bg_360.jpg) center top/1920px no-repeat, #fff;
+    padding: 0;
+    background-size: cover;
+}
+#VivoStick-warp #VivoStick-screen .main {
+    text-align: center;
+    padding: 120px 20px 0
+}
+#VivoStick-warp #VivoStick-screen .main .screen_info{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+#VivoStick-warp #VivoStick-screen .main .screen_info .mtitle{
+        font-family: "Myriadprolight";
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 300;
+    color: #191919;
+    text-align: center;
+    margin-bottom: 0px;
+    border: 1px solid #4d4d4d;
+    display: inline-block;
+    padding: 30px 46px 25px;
+    margin-bottom: 35px;
+}
+#VivoStick-warp #VivoStick-screen .main .screen_info .info {
+    width: 100%;
+    max-width: 960px;
+    font-family: "Robotolight";
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+    color: #222;
+    margin: 0 auto ;
+}
+
+#VivoStick-warp #VivoStick-screen .main .reel360 {
+    display: inline-block;
+    max-width: 450px;
+    margin-bottom: 100px
+}
+
+#VivoStick-warp #VivoStick-screen .main .reel360 #image-reel {
+    padding-bottom: 0px
+}
+
+#VivoStick-warp #VivoStick-screen .main .reel360 .reel-indicator-bar {
+    position: absolute;
+    width: 100%;
+    background: url('https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/reelbar.png?1444234280') center/100% no-repeat;
+    height: 18px;
+    bottom: 0px
+}
+
+#VivoStick-warp #VivoStick-screen .main .reel360 #image-reel .reel-indicator.x {
+    background: url('https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/bar_dot.png?1444234278') center/100% no-repeat;
+    width: 36px !important;
+    height: 18px !important
+}
+
+#VivoStick-warp #VivoStick-screen .main .reel360 .reeltitle {
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    margin: 0 auto 30px
+}
+/*VivoStick-style*/
+#VivoStick-warp #VivoStick-style{
+    background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/left_black.jpg) center top/1919px repeat-y, #fff;
+    padding: 0;
+    padding: 200px 0
+}
+#VivoStick-warp #VivoStick-style ul.half_box{
+    display: inline-block;
+    width: 100%;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li .mtitle{
+    font-family: "Myriadprolight";
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 300;
+    color: #191919;
+    text-align: center;
+    margin-bottom: 0px;
+    border: 1px solid #4d4d4d;
+    display: inline-block;
+    padding: 30px 46px 25px;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li img{
+    width: 50%;
+    max-width: 142px !important;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li.half_left{
+    text-align: right;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li.half_right{
+    text-align: left;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li.half_left .half_left_pic{
+    margin-right: 50px;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li.half_left .mtitle{
+    color: #fff;
+    position: relative;
+    margin: 50% 20px 50% 0;
+        float: right;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li.half_right .half_right_pic{
+    margin-left: 50px;
+}
+#VivoStick-warp #VivoStick-style ul.half_box li.half_right .mtitle{
+    position: relative;
+    margin: 50% 0 50% 20px;
+        float: left;
+}
+/*VivoStick-details*/
+#VivoStick-warp #VivoStick-details{
+    margin-bottom: 0px;
+    padding: 180px 0 50px;
+    background: #fff;
+}
+#VivoStick-warp #VivoStick-details ul.details_ul{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin-top: 50px
+}
+#VivoStick-warp #VivoStick-details ul.details_ul li{
+    display: block;
+    float: left;
+    width: 31%;
+    margin: 0 1%;
+    background: #e2e2e2
+}
+#VivoStick-warp #VivoStick-details ul.details_ul li .pics{
+    float: left;
+    width: 100%;
+    max-width: 613px !important;
+}
+/*#VivoStick-warp #VivoStick-portable*/
+#VivoStick-warp #VivoStick-portable{
+    background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/bg_portable.jpg) center top/1919px no-repeat, #fff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#VivoStick-warp #VivoStick-portable .info_right{
+    margin: 0px 0px 0px 50%;
+    position: relative;
+    width: 50%;
+    text-align: left;
+        padding: 35% 0 30%;
+}
+#VivoStick-warp #VivoStick-portable .info_right .info{
+    text-align: left;
+}
+/*#VivoStick-warp #VivoStick-capabilities*/
+#VivoStick-warp #VivoStick-capabilities{
+    background: #222;
+    padding: 140px 0 120px;
+}
+#VivoStick-warp #VivoStick-capabilities .maintitle .pics{
+    width: 100%; 
+    max-width: 1007px !important;
+}
+#VivoStick-warp #VivoStick-capabilities .maintitle .icons{
+    width: 100%; 
+    max-width: 715px !important;
+    margin: 35px auto
+}
+#VivoStick-warp #VivoStick-capabilities .maintitle .info{
+    width: 90%;
+    margin: 0 auto 35px;
+}
+/*VivoStick-honor*/
+#VivoStick-warp #VivoStick-honor{
+    background: #222;
+    width: 100%;
+    padding: 80px 0;
+}
+#VivoStick-warp #VivoStick-honor .pics{
+    margin-bottom: 50px;
+    max-width: 228px !important
+}
+#VivoStick-warp #VivoStick-honor .maintitle .info b{
+    margin-bottom: 8px;
+        display: inline-block;
+}
+#VivoStick-warp #VivoStick-honor .maintitle .info p.note{
+    font-size: 12px;
+    margin-top: 8px;
+        display: inline-block;
+}
+
+/*VivoStick-kv*/
+#VivoStick-warp #VivoStick-kv .mainsize .video_box {
+    position: relative;
+    text-align: center
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .content {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .content .title {
+    text-align: center;
+    color: #c38649;
+    font-family: "Myriadprolight";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 300
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .info {
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .note {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .videolink {
+    display: block;
+    position: relative
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .videolink .playicon {
+    position: absolute;
+    width: 100%;
+    top: 28%
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .main_img {
+    margin-top: -90px
+}
+
+#VivoStick-warp #VivoStick-kv .mainsize .video_box .sub_img {
+    margin-top: -280px;
+    position: relative
+}
+
+#VivoStick-warp #videoplayer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99999
+}
+
+#VivoStick-warp #videoplayer .videoclose {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/videoclose.png) center 100% no-repeat;
+    right: 50px;
+    opacity: .6
+}
+
+#VivoStick-warp #videoplayer .videoclose:hover {
+    opacity: 1
+}
+#VivoStick-warp #VivoStick-bigTitle_03 .maintitle .mtitle{
+    padding: 10% 0 15% !important;
+}
+
+#VivoStick-warp #VivoStick-design{
+    background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/bg_design.jpg) center 25em/1919px no-repeat, #fff;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    clear: both;
+    width: 100%;
+}
+#VivoStick-warp #VivoStick-design .maintitle .info{
+    width: 96%;
+    margin: 0 auto
+}
+#VivoStick-warp #VivoStick-design .maintitle.mobile {
+    display: none
+}
+#VivoStick-warp #VivoStick-design .pics{
+        margin: 80px 0 35px;
+        width: 100%;
+        max-width: 874px !important;
+    }
+#VivoStick-warp .maintitle {
+    text-align: center;
+}
+
+#VivoStick-warp .maintitle .mtitle {
+    font-family: "Myriadprolight";
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 35px;
+    border: 1px solid #4d4d4d;
+    display: inline-block;
+    padding: 30px 46px 25px
+}
+/*VivoStick-slider*/
+#VivoStick-warp #VivoStick-slider{
+    padding-top: 110px;
+    padding-bottom: 80px;
+    background: #fff
+}
+#VivoStick-warp #VivoStick-slider .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-width: 841px;
+        margin: 0 auto;
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .item {
+    position: relative;
+    display: none;
+   -webkit-transition: .6s ease-in-out left;
+   -o-transition: .6s ease-in-out left;
+    transition: .6s ease-in-out left
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .item > a > img,
+#VivoStick-warp #VivoStick-slider .carousel-inner > .item > img {
+    line-height: 1
+}
+
+@media all and(transform-3 d),(-webkit-transform-3 d) {
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item {
+        -webkit-transition: -webkit-transform.6s ease-in-out;
+       -o-transition: -o-transform.6s ease-in-out;
+        transition: transform.6s ease-in-out;
+       -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+       -webkit-perspective: 1000px;
+        perspective: 1000px
+    }
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item.active.right,
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item.next {
+        left: 0;
+       -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item.active.left,
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item.prev {
+        left: 0;
+       -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item.active,
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item.next.left,
+    #VivoStick-warp #VivoStick-slider .carousel-inner > .item.prev.right {
+        left: 0;
+       -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .active,
+#VivoStick-warp #VivoStick-slider .carousel-inner > .next,
+#VivoStick-warp #VivoStick-slider .carousel-inner > .prev {
+    display: block
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .active {
+    left: 0
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .next,
+#VivoStick-warp #VivoStick-slider .carousel-inner > .prev {
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .next {
+    left: 100%
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .prev {
+    left: -100%
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .next.left,
+#VivoStick-warp #VivoStick-slider .carousel-inner > .prev.right {
+    left: 0
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .active.left {
+    left: -100%
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-inner > .active.right {
+    left: 100%
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.left {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control:focus,
+#VivoStick-warp #VivoStick-slider .carousel-control:hover {
+    color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-left,
+#VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-right,
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-next,
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-left,
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-prev {
+    left: 50%;
+    margin-left: -10px
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-right,
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-next {
+    right: 50%;
+    margin-right: -10px
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-next,
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-prev {
+    width: 20px;
+    height: 20px;
+    font-family: serif;
+    line-height: 1
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-prev:before {
+    content: '\2039'
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-control.icon-next:before {
+    content: '\203a'
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-indicators {
+    position: relative;
+    z-index: 15;
+    width: 100%;
+    margin: -170px 0 0;
+    text-align: center;
+    list-style: none
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-indicators li {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px #9fa0a0 solid;
+    color: #9fa0a0
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-indicators.active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #fff
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-caption {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+}
+
+#VivoStick-warp #VivoStick-slider .carousel-caption.btn {
+    text-shadow: none
+}
+
+@media screen and(min-width: 768px) {
+    #VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-left,
+    #VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-right,
+    #VivoStick-warp #VivoStick-slider .carousel-control.icon-next,
+    #VivoStick-warp #VivoStick-slider .carousel-control.icon-prev {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        font-size: 30px
+    }
+    #VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-left,
+    #VivoStick-warp #VivoStick-slider .carousel-control.icon-prev {
+        margin-left: -15px
+    }
+    #VivoStick-warp #VivoStick-slider .carousel-control.glyphicon-chevron-right,
+    #VivoStick-warp #VivoStick-slider .carousel-control.icon-next {
+        margin-right: -15px
+    }
+    #VivoStick-warp #VivoStick-slider .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 30px
+    }
+    #VivoStick-warp #VivoStick-slider .carousel-indicators {
+        bottom: 20px
+    }
+}
+#VivoStick-warp #VivoStick-slider .slide_area{
+    position: relative;
+    margin: 0 auto ;
+    padding-top: 0;
+    text-align: center;
+    max-width: 897px;
+    margin-top: 120px;
+}
+
+#VivoStick-warp #VivoStick-slider .slide_area .slide_bg{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    max-width: 897px !important;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_pd{
+        position: absolute;
+    left: -1.4%;
+    bottom: 29.2%;
+    z-index: 11;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*padding: 3%; жњ¬ж©џ*/
+    padding: 2.5% 3%;/*жё¬и©¦з«™*/
+    text-align: center;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel{
+        margin-top: 3px;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner{
+    position: relative;
+    z-index: 9;
+    
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item{
+    z-index: 10;
+    padding-top: 77px
+
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item img{
+    width: 100%;
+    max-width: 841px !important
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item .slide_over{
+    position: relative;
+    
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item .carousel-caption{
+    position: absolute;
+    top:10px;
+    text-shadow: none !important;
+    width: 100%;
+
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item .carousel-caption h4{
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item .carousel-caption p{
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item .carousel-caption p a{
+    color: #21a9c8
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators{
+    position: relative;
+    width: 100%;
+
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators.phonesize{
+    display: none;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators li{
+    width: 18%;
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0.4%;
+    font-size: 15px;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators li.active{
+    border: 1px #373737 solid;
+    background: #373737;
+    color: #fff;
+}
+#VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators li:last-child:after{
+    display: none;
+}
+#VivoStick-warp #VivoStick-slider .pics{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 984px !important;
+    margin-top: -20px;
+}
+/*VivoStick-remote*/
+#VivoStick-warp #VivoStick-remote{
+    background: #f7f7f7;
+    width: 100%
+}
+#VivoStick-warp #VivoStick-remote ul{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+        margin-bottom: -5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#VivoStick-warp #VivoStick-remote ul li{
+    height: 100%;
+    padding: 100px 0;
+}
+#VivoStick-warp #VivoStick-remote .remote_left{
+    display: inline-block;
+    width: 50%;
+    background: #f7f7f7;
+    float: left;
+    text-align: right;
+    padding-bottom: 0
+}
+#VivoStick-warp #VivoStick-remote .remote_left .maintitle{
+    text-align: right;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .maintitle .mtitle{
+    margin-right: 100px;
+    margin-bottom: 15px;
+    color: #222;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box{
+    display: block;
+    width: auto;
+    position: relative;
+    z-index: 12;
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins{
+    display: inline-block;
+    padding: 17px 11px 13px;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    margin: 10px 7px;
+    border: 1px #9fa0a0 solid;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins.active,
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins:hover{
+    border: 1px #21a9c8 solid;
+    background: #21a9c8;
+    outline: none;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins .phone_btn{
+    display: none;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .pics_box{
+        display: inline-block;
+        margin-right: 120px;
+    margin-top: 10px;
+    }
+#VivoStick-warp #VivoStick-remote .remote_left .pics{
+    width: 100%;
+    max-width: 491px !important;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .phonekv{
+    display: none;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .phonekv.active{
+    display: block;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .phonekv .step{
+    display: none;
+    position: relative;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .phonekv .step.active{
+    display: block;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .phonekv .step .next{
+        position: absolute;
+    top: 36%;
+    right: 17.5%;
+    z-index: 99;
+}
+#VivoStick-warp #VivoStick-remote .remote_left .phonekv .step .prev{
+    position: absolute;
+    top: 36%;
+    left: 27%;
+    z-index: 99;
+}
+#VivoStick-warp #VivoStick-remote .remote_right{
+    display: inline-block;
+    width: 50%;
+    background: #222222;
+    float: left;
+    text-align: left;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .pics_box{
+    display: inline-block;
+        margin-left: -80px;
+    margin-bottom: -40px;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .pics_box.phonekv_phone{
+    display: none;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .pics{
+    width: 1050px;
+    max-width: 1050px;
+    display: none;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .pics.active{
+    display: block;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .pics_phone{
+    display: none;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle{
+    width: 85%;
+    max-width: 660px !important;
+    text-align: left;
+    padding-left: 5%;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .mtitle{
+    text-align: left;
+    margin-bottom: 20px
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .info{
+    text-align: left;
+    margin-bottom: 10px
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_info{
+    display: none;
+}
+#VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_info.active{
+    display: block;
+}
+/*VivoStick-miracast*/
+#VivoStick-warp #VivoStick-miracast{
+    background: #fff;
+    padding: 110px 0
+}
+#VivoStick-warp #VivoStick-miracast .minpic{
+    display: none;
+}
+#VivoStick-warp #VivoStick-miracast .info .note{
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 10px
+}
+#VivoStick-warp #VivoStick-miracast .info .note a{
+    color: #21a9c8
+}
+#VivoStick-warp #VivoStick-miracast .maintitle .pics{
+    width: 100%;
+    max-width: 930px !important
+}
+/*VivoStick-staycool*/
+#VivoStick-warp #VivoStick-staycool {
+    background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/bg_staycool.jpg) left top no-repeat, #272727;
+    padding: 170px 0 220px;
+}
+#VivoStick-warp #VivoStick-staycool .maintitle.righttxt .info_left img{
+    width: 500px;
+    max-width: 500px !important
+}
+#VivoStick-warp #VivoStick-staycool .maintitle.righttxt .info_left .pics{
+    margin-top: -98px;
+    margin-left: -40px
+}
+/*VivoStick-anytime*/
+#VivoStick-warp #VivoStick-anytime{
+    padding: 180px 0 40px;
+    background: #fff
+}
+#VivoStick-warp #VivoStick-anytime .righttxt .info_left .pics{
+    margin-top: -275px;
+    margin-left: -15px;
+}
+/*е№іжќї*/
+
+@media (min-width: 719px) and (max-width: 959px) {
+    /*й–‹е§‹*/
+    #VivoStick-warp #VivoStick-kv .mainsize,
+    #VivoStick-warp #VivoStick-screen .mainsize,
+    #VivoStick-warp #VivoStick-style .mainsize,
+    #VivoStick-warp #VivoStick-slider .mainsize,
+    #VivoStick-warp #VivoStick-honor .mainsize,
+    #VivoStick-warp #VivoStick-design .mainsize,
+    #VivoStick-warp #VivoStick-details .mainsize,
+    #VivoStick-warp #VivoStick-portable .mainsize,
+    #VivoStick-warp #VivoStick-capabilities .mainsize,
+    #VivoStick-warp #VivoStick-miracast .mainsize,
+    #VivoStick-warp #VivoStick-staycool .mainsize,
+    #VivoStick-warp #VivoStick-anytime .mainsize{
+        padding: 0px 20px;
+    }
+    #VivoStick-warp .maintitle {
+        margin-bottom: 0
+    }
+    /*VivoStick-kv*/
+    #VivoStick-warp #VivoStick-kv{
+        background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/kv_01.jpg) center top/1920px no-repeat, #fff;
+        background-size: 100%;
+        padding-top: 40%;
+        padding-bottom: 5%;
+    }
+    #VivoStick-warp #VivoStick-kv .maintitle .mtitle p{
+        line-height: 75px
+    }
+    #VivoStick-kv .maintitle .infobox{
+        width: auto
+    }
+    /*дё»жЁ™*/
+    #VivoStick-warp .maintitle .mtitle,
+    #VivoStick-warp .screen_info .mtitle{
+        font-size: 30px !important;
+        line-height: 0.8 !important;
+        text-align: left !important;
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+    }
+    #VivoStick-warp #VivoStick-screen .main .info,
+    #VivoStick-warp .maintitle .info {
+        text-align: center;
+    }
+    /*VivoStick-style*/
+    #VivoStick-warp #VivoStick-style{
+        padding: 50px 0;
+    }
+    #VivoStick-warp #VivoStick-style .mainsize{
+        padding: 0
+    }
+    #VivoStick-warp #VivoStick-style ul.half_box li{
+        text-align: center !important;
+    }
+    #VivoStick-warp #VivoStick-style ul.half_box li img{
+        margin: 0 !important
+    }
+    #VivoStick-warp #VivoStick-style ul.half_box li .mtitle{
+        width: 80% !important;
+    margin: 5% 0 !important;
+    float: none !important;
+    font-size: 20px;
+    padding: 30px 0 25px;
+    clear: both;
+    }
+    /**/
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box{
+            /*padding: 3%; жњ¬ж©џ*/
+    padding: 2.6% 3%;/*жё¬и©¦з«™*/
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area{
+        margin-top: 150px;
+    }
+    /*VivoStick-miracast*/
+    #VivoStick-warp #VivoStick-miracast .maintitle .mtitle{
+        margin-top: 0px !important
+    }
+    /*VivoStick-portable*/
+    #VivoStick-warp #VivoStick-portable{
+        background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/bg_portable.jpg) 50% top no-repeat, #fff;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-size: cover
+    }
+    #VivoStick-warp #VivoStick-portable .info_right{
+        margin: 0px 0px 0px 55%;
+        position: relative;
+        width: 45%;
+        text-align: left;
+        padding: 5% 0 17%
+    }
+    /*е·¦ж–‡еЏіењ–*/
+    #VivoStick-warp .maintitle.lefttxt .info_left{
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+    #VivoStick-warp .maintitle.lefttxt .info_right{
+        margin: 0;
+        width: 100%;
+    }
+    #VivoStick-warp .maintitle.lefttxt .info_left .mtitle,
+    #VivoStick-warp .maintitle.lefttxt .info_left .info,
+    #VivoStick-warp .maintitle.lefttxt .info_right .mtitle,
+    #VivoStick-warp .maintitle.lefttxt .info_right .mtitle{
+        text-align: center;
+    }
+    /*е·¦ењ–еЏіж–‡*/
+    #VivoStick-warp .maintitle.righttxt .info_left{
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+    #VivoStick-warp .maintitle.righttxt .info_right{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #VivoStick-warp .maintitle.righttxt .info_right .mtitle,
+    #VivoStick-warp .maintitle.righttxt .info_right .info,
+    #VivoStick-warp .maintitle.righttxt .info_left .mtitle,
+    #VivoStick-warp .maintitle.righttxt .info_left .mtitle{
+        text-align: center;
+    }
+    /*video_box*/
+    #VivoStick-warp #VivoStick-kv .mainsize .video_box .content {
+        text-align: left
+    }
+    #VivoStick-warp #VivoStick-kv .mainsize .video_box .content .title {
+        text-align: left
+    }
+    #VivoStick-warp #VivoStick-kv .mainsize .video_box .note {
+        width: 100%;
+        text-align: left
+    }
+    #VivoStick-warp #VivoStick-kv .mainsize .video_box .sub_img {
+        margin-top: -10px
+    }
+    /*360*/
+    #VivoStick-warp #VivoStick-screen {
+        padding: 0
+    }
+    #VivoStick-warp #VivoStick-screen .main .screen_info .info{
+        margin: 0
+    }
+    #VivoStick-warp #VivoStick-screen .main .screen_info{
+    width: 100%;
+    }
+    #VivoStick-warp #VivoStick-screen .main .screen_info .info{
+        margin-bottom: 0
+    }
+    #VivoStick-warp #VivoStick-screen .main .reel360 {
+        width: 100%;
+        margin-top: 0em
+    }
+    /*VivoStick-details*/
+    #VivoStick-warp #VivoStick-details{
+        padding-top: 80px;
+    }
+    /*VivoStick-capabilities*/
+    #VivoStick-warp #VivoStick-capabilities{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    /*VivoStick-slider*/
+    #VivoStick-warp #VivoStick-slider{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_pd{
+        width: 4%
+    }
+    /**/
+    #VivoStick-warp #VivoStick-design .maintitle {
+        width: 100%;
+    }
+     #VivoStick-warp #VivoStick-design .maintitle .info{
+        width: 100%
+    }
+    /*VivoStick-remote*/
+    #VivoStick-warp #VivoStick-remote .remote_right .pics_box{
+        display: none;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_left .pics_box{
+        margin: -20px 15% 0;
+        width: 70%
+    }
+    #VivoStick-warp #VivoStick-remote .remote_left .pics{
+            width: 100%;
+            height: 100%;
+    margin-right: 0%;
+    margin-top: 0%;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right{
+            padding: 15% 0;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .pics{
+            max-width: 750px !important;
+    margin-left: -24%;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins .phone_btn{
+    display: none;
+}
+    /*VivoStick-staycool*/
+    #VivoStick-warp #VivoStick-staycool{
+            padding: 110px 0 140px;
+    }
+    #VivoStick-warp #VivoStick-staycool .maintitle.righttxt .info_right{
+        margin-top: -40px
+    }
+    /*VivoStick-design*/
+    #VivoStick-warp #VivoStick-design{
+       padding-top: 110px; 
+    }
+    #VivoStick-warp #VivoStick-design .pics{
+        margin-top: 10px
+    }
+    
+}
+
+/*ж‰‹ж©џ*/
+
+@media (max-width: 719px) {
+    /*й–‹е§‹*/
+    #VivoStick-warp #VivoStick-kv .mainsize,
+    #VivoStick-warp #VivoStick-screen .mainsize,
+    #VivoStick-warp #VivoStick-style .mainsize,
+    #VivoStick-warp #VivoStick-slider .mainsize,
+    #VivoStick-warp #VivoStick-honor .mainsize,
+    #VivoStick-warp #VivoStick-design .mainsize,
+    #VivoStick-warp #VivoStick-details .mainsize,
+    #VivoStick-warp #VivoStick-portable .mainsize,
+    #VivoStick-warp #VivoStick-capabilities .mainsize,
+    #VivoStick-warp #VivoStick-miracast .mainsize,
+    #VivoStick-warp #VivoStick-staycool .mainsize,
+    #VivoStick-warp #VivoStick-anytime .mainsize{
+        padding: 0px 5%;
+    }
+    #VivoStick-warp #VivoStick-screen .main .info, #VivoStick-warp .maintitle .info{
+        font-size: 16px !important;
+        line-height: 1.6em !important
+    }
+    #VivoStick-warp .maintitle .mtitle,
+    #VivoStick-warp #VivoStick-screen .main .screen_info .mtitle{
+        font-size: 24px;
+        padding: 20px 30px 15px
+    }
+    #VivoStick-warp #VivoStick-slider{
+        padding-top: 110px;
+        padding-bottom: 380px
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area{
+        margin-top: 0px
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box{
+            /*padding: 3%; жњ¬ж©џ*/
+    padding: 3%;/*жё¬и©¦з«™*/
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators{
+        display: none;
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators.phonesize{
+            position: relative;
+    width: 100%;
+    display: block;
+    margin: 20px 0 0;
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel{
+           margin-top: 0px;
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-indicators li{
+        width: 47%;
+        margin: 1% 0.5%;
+        height: 22px;
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner{
+        padding-bottom: 90px
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item{
+        padding-top: 0;
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_box .carousel-inner .item .carousel-caption{
+        position: relative;
+        top: 90px;
+    }
+    #VivoStick-warp #VivoStick-slider .slide_area .slide_pd{
+        width: 4%
+    }
+    /*VivoStick-kv*/
+    #VivoStick-warp #VivoStick-kv{
+        background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/kv_01.jpg) center top/1920px no-repeat, #fff;
+        background-size: 100%;
+        padding-top: 40%;
+        padding-bottom: 50px;
+    }
+    #VivoStick-warp #VivoStick-kv .maintitle .pics{
+        width: 100%;
+        max-width: 271px !important;
+    }
+    #VivoStick-warp #VivoStick-kv .maintitle .mtitle{
+        margin: 10px 0 20px;
+        width: 100%
+    }
+    #VivoStick-warp #VivoStick-kv .maintitle .mtitle p{
+        font-size: 35px;
+    width: 100% !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 43px;
+    }
+    #VivoStick-warp #VivoStick-kv .maintitle .icon_video_play{
+        margin: 0 0 25px
+    }
+    #VivoStick-kv .maintitle .infobox{
+        padding: 0px;
+        position: relative;
+        width: 100%;
+
+    }
+    #VivoStick-kv .maintitle .infobox .intel__logo{
+            background-repeat: no-repeat;
+        z-index: 2;
+        background-size: contain;
+        height: 120px;
+        width: 120px;
+        background-image: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/intel_logo_large.png);
+        margin: 20px auto ;
+        position: relative;
+    }
+    /*VivoStick-miracast*/
+    #VivoStick-warp #VivoStick-miracast{
+        background: #fff;
+        padding: 20px 0 50px
+    }
+    #VivoStick-warp #VivoStick-miracast .minpic{
+        display: block;
+        width: 100% !important
+    }
+    /*VivoStick-style*/
+    #VivoStick-warp #VivoStick-style{
+        padding: 50px 0;
+    }
+    #VivoStick-warp #VivoStick-style .mainsize{
+        padding: 0
+    }
+    #VivoStick-warp #VivoStick-style ul.half_box li{
+        text-align: center !important;
+    }
+    #VivoStick-warp #VivoStick-style ul.half_box li img{
+        margin: 0 !important
+    }
+    #VivoStick-warp #VivoStick-style ul.half_box li .mtitle{
+        width: 80% !important;
+    margin: 5% 0 !important;
+    float: none !important;
+    font-size: 20px;
+    padding: 30px 0 25px;
+    clear: both;
+    }
+    /*VivoStick-portable*/
+    #VivoStick-warp #VivoStick-portable{
+        background: url(https://www.asus.com/websites/global/products/kG8zmnBbP9T4sqBA/images/bg_portable.jpg) left top no-repeat, #fff;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        background-size: 150%
+    }
+    #VivoStick-warp #VivoStick-portable .info_right{
+        margin: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 95% 0 0;
+    }
+    /*е·¦ж–‡еЏіењ–*/
+    #VivoStick-warp .maintitle.lefttxt .info_left{
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+    #VivoStick-warp .maintitle.lefttxt .info_right{
+        margin: 0;
+        width: 100%;
+    }
+    #VivoStick-warp .maintitle.lefttxt .info_left .mtitle,
+    #VivoStick-warp .maintitle.lefttxt .info_left .info,
+    #VivoStick-warp .maintitle.lefttxt .info_right .mtitle,
+    #VivoStick-warp .maintitle.lefttxt .info_right .mtitle{
+        margin: 0 0 35px;
+        text-align: center;
+    }
+    /*е·¦ењ–еЏіж–‡*/
+    #VivoStick-warp .maintitle.righttxt .info_left{
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+    #VivoStick-warp .maintitle.righttxt .info_right{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #VivoStick-warp .maintitle.righttxt .info_right .mtitle,
+    #VivoStick-warp .maintitle.righttxt .info_right .info,
+    #VivoStick-warp .maintitle.righttxt .info_left .mtitle,
+    #VivoStick-warp .maintitle.righttxt .info_left .mtitle{
+        margin: 0 0 35px;
+        text-align: center;
+    }
+    /*VivoStick-design*/
+    #VivoStick-warp #VivoStick-design{
+        padding: 80px 0 50px;
+    }
+    #VivoStick-warp #VivoStick-design .pics{
+        margin-top: 20px
+    }
+    /*VivoStick-details*/
+    #VivoStick-warp #VivoStick-details{
+        padding: 20px 0
+    }
+    #VivoStick-warp #VivoStick-details ul.details_ul{
+        width: 90%;
+        margin: 0 5%;
+    }
+    #VivoStick-warp #VivoStick-details ul.details_ul li{
+        width: 100%;
+        margin: 1% 0
+    }
+    /**/
+    #VivoStick-warp #VivoStick-capabilities{
+        padding: 110px 0 50px
+    }
+    /*VivoStick-remote*/
+    #VivoStick-warp #VivoStick-remote .remote_left{
+        width: 45%;
+        display: none;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_left .pics{
+            width: 70%;
+    margin-right: 25%;
+    margin-top: 20%;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right{
+        width: 100%;
+            padding: 50px 0 50px;
+            background: #F7F7F7;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .pics{
+            width: 100%;
+        max-width: 491px !important;
+        display: block;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .phonekv{
+        display: none;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .phonekv.active{
+        display: block;
+        text-align: center;
+            margin-left: -10%;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .phonekv .step{
+        display: none;
+        position: relative;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .phonekv .step.active{
+        display: inline-block;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .pics_box{
+        width: 50%;
+        display: none;
+        margin: 0 auto;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .pics_box.phonekv_phone{
+        display: block;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .phonekv .step .next{
+        position: absolute;
+        top: 36%;
+        right: 17.5%;
+        z-index: 99;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .phonekv .step .prev{
+        position: absolute;
+        top: 36%;
+        left: 27%;
+        z-index: 99;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .pics_phone{
+        display: block;
+        width: 100%;
+        max-width: 700px !important;
+        margin: 0 auto;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle{
+            width: 100%;
+            max-width: 100% !important;
+            padding: 0;
+    text-align: center;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle *{
+        color: #222
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .info{
+        text-align: center;
+        padding: 0 20px;
+        min-height: 80px;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins img{
+    display: none;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins img.phone_btn{
+    display: block;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins.active img,
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins:hover img{
+    display: block;
+    }
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins.active img.phone_btn,
+    #VivoStick-warp #VivoStick-remote .remote_right .maintitle .chang_box .chang_ins:hover img.phone_btn{
+    display: none;
+    }
+    /*VivoStick-staycool*/
+    #VivoStick-warp #VivoStick-staycool{
+        padding: 50px 0 80px;
+    }
+    #VivoStick-warp #VivoStick-staycool .maintitle.righttxt .info_left .pics{
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%
+    }
+    /*VivoStick-anytime*/
+    #VivoStick-warp #VivoStick-anytime .maintitle{
+            width: 100%;
+            max-width: 100% !important;
+            padding: 0;
+    text-align: center;
+    }
+    #VivoStick-warp #VivoStick-anytime .maintitle .info{
+        text-align: center;
+        padding: 0 20px;
+    }
+    #VivoStick-warp #VivoStick-anytime .righttxt .info_left .pics{
+        margin-left: 0px;
+        margin-top: -250px;
+        width: 60%
+    }
+    /*VivoStick-honor*/
+    #VivoStick-warp #VivoStick-honor{
+        padding: 80px 0 50px
+    }
+    #VivoStick-warp #VivoStick-honor .pics{
+        width: 50%
+    }
+}
