@@ -462,9 +462,9 @@ html #overview #sectionOverview {
     width: 138px;
     padding-right: 29px;
     margin: 25px auto;
-        display: inline-block;
-        line-height: 27px !important;
-        color: #9fa0a0;
+    display: inline-block;
+    line-height: 27px !important;
+    color: #9fa0a0;
 }
 #VivoStick-warp #VivoStick-kv .maintitle .mtitle p {
     color: #222;
@@ -481,6 +481,12 @@ html #overview #sectionOverview {
 #VivoStick-warp #VivoStick-kv .maintitle .pics{
     width: 100%;
     max-width: 477px !important;
+}
+#VivoStick-warp #VivoStick-kv .maintitle .tit{
+    font-family: "Myriadprolight";
+    font-size: 80px;
+    line-height: 1;
+    color: #0180cb;
 }
 #VivoStick-kv .maintitle .infobox{
     padding-left: 95px;
@@ -660,12 +666,21 @@ html #overview #sectionOverview {
     float: left;
     width: 31%;
     margin: 0 1%;
-    background: #e2e2e2
+    background: #e2e2e2;
+    position: relative;
 }
 #VivoStick-warp #VivoStick-details ul.details_ul li .pics{
     float: left;
     width: 100%;
     max-width: 613px !important;
+}
+#VivoStick-warp #VivoStick-details ul.details_ul li .img-abs{
+    position: absolute;
+    bottom: 10px;
+    left: 13px;
+    font-size: 14px;
+    padding-right: 30px;
+    background-color: #E2E2E2;
 }
 /*#VivoStick-warp #VivoStick-portable*/
 #VivoStick-warp #VivoStick-portable{
